@@ -1,0 +1,69 @@
+
+.vert{
+    background: linear-gradient(61deg, rgb(41, 123, 47) 45%, rgba(13, 173, 56, 0.989) 87%);
+
+    width: 500px;
+    height: 350px;
+    
+    margin: auto;
+    display: flex;
+}
+.blanc{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    box-shadow: 1px 4px 9px ;
+   
+}
+.input, p, h2{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 235px;
+    height: 30px;
+    margin: auto;
+    background: linear-gradient(61deg, rgb(41, 123, 47) 45%, rgba(13, 173, 56, 0.989) 87%);
+
+    border: none;
+    color: white;
+    
+}
+input{
+    border: none;
+    background-color: rgb(238, 231, 231);
+    height: 25px;
+    width: 235px;
+}
+a{
+    text-decoration: none;
+   
+}
+.green{
+    color: green;
+    
+}
+
+.white{
+    color: white;
+}
+.input{
+    width: ;
+}
+.greeen{
+    margin-top: 0px;
+    font-size: 12px;
+}
+span{
+    color: gray;
+}
+body{
+    background: linear-gradient(61deg, rgb(41, 123, 47) 45%, rgba(13, 173, 56, 0.989) 87%);
+
+}
