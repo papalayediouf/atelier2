@@ -1,0 +1,49 @@
+body{
+    font-family: 'Source code pro', Calibri, serif;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 100%;
+    background-color: #424558;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+nav li{
+    list-style-type: none;
+
+    float: left;
+}nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: white;
+}
+.menu-html:hover{
+    border-top: 5px solid red;
+    background-color: rgba(228, 77, 38, 0.15);
+}
+.menu-css:hover{
+    border-top: 5px solid blue;
+    background-color: rgba(000,112,192, 0.15);
+}
+.menu-js:hover{
+    border-top: 5px solid yellow;
+    background-color: rgba(241,211,79, 0.15);
+}
+.menu-contact:hover{
+    border-top: 5px solid #BBB;
+    background-color: rgba(220,220, 220, 0.15);
+
+}
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+.table{
+    display: table;
+    margin: 0 auto;
+}
