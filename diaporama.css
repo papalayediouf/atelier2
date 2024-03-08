@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+
+}
+.diaporama1{
+    margin: 0 auto;
+    width: 960px;
+    height: 500px;
+    border: 3px solid #333;
+    background-image: url(image/neige.jpg);
+
+    -webkit-animation-name: diapo1;
+    -webkit-animation-duration: 9s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+}
+
+@-webkit-keyframes diapo1{
+    0% {background-image: url(image/mer);}
+    33%{background-image: url(image/arbre.avif);}
+}
+.diaporama2{
+    margin: 0 auto;
+    width: 960px;
+    height: 500px;
+    border: 3px solid #333;
+    background-image: url(image/neige.jpg);
+
+    -webkit-animation-name: diapo2;
+    -webkit-animation-duration: 12s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+}
+
+@-webkit-keyframes diapo2{
+    0%{background-position: 0px 0px;}
+    33%{background-position: -960px 0px;}
+    64%{background-position: -1920px 0px;}
+    100%{background-position: -2880 0px;}
+  
+}
