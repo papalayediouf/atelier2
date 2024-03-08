@@ -1,0 +1,144 @@
+body{
+    font-family: Verdana, Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    background-color: gray;
+}
+
+nav > ul{
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    list-style-type: none;
+   
+}
+nav > ul >li{
+    float: left;
+    position: relative;
+}
+nav > ul::after{
+
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.subemenu{
+    display: none;
+
+}
+nav input[type=checkbox]{
+    display: none;
+}
+nav label{
+    display: none;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+nav >ul>li>a{
+    padding: 20px 30px;
+    color: #FFF;
+
+}
+nav >ul >li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+nav li:hover .subemenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+nav input[type=checkbox]:checked ~ ul{
+    display: block;
+}
+.subemenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    width: 270px;
+    color: rgb(55, 54, 54);
+
+}
+.subemenu li{
+    border-bottom: 1px solid #CCC;
+}
+.menu-html:hover{
+    border-top: 5px solid orangered;
+    background-color: rgba(228,77,38,0.15);
+
+}
+.menu-css:hover{
+    border-top: 5px solid blue;
+    background-color: rgba(43, 9, 145, 0.15);
+
+}
+.menu-js:hover{
+    border-top: 5px solid yellow;
+    background-color: rgba(125, 230, 26, 0.15);
+
+}
+.menu-con:hover{
+    border-top: 5px solid rgb(238, 238, 232);
+    background-color: rgba(168, 179, 158, 0.15);
+
+}
+
+.menu-html .subemenu{
+    background-color: aqua;
+}
+.menu-css .subemenu{
+    background-color: yellow;
+}
+.menu-js .subemenu{
+    background-color: blue;
+}
+.subemenu li:hover a{
+    color: #EEE;
+    font-weight: bold;
+}
+.menu-html li:hover{
+    background-color: rgba(210,77,60);
+}
+.menu-css li:hover{
+    background-color: rgb(12, 156, 67);
+}
+.menu-js li:hover{
+    background-color: rgb(183, 77, 94);
+}
+
+@media screen and (max-width:780px) {
+    .menu-mobile{
+        display: block;
+        color: white;
+        background-color: blue;
+        text-align: center;
+        padding: 12px 0px;
+    }
+    nav ul{
+        display: none;
+
+    }
+    nav ul li, nav ul li a{
+        width: 100%;
+        text-align: center;
+
+    }
+    nav ul li a, nav ul li:hover a{
+        padding: 10px 0px;
+
+    }
+    nav li:hover .subemenu{
+        display: block;
+        position: static;
+    }
+}

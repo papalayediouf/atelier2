@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: Verdana, Cursiva, serif;
+}
+div{
+    margin: 20px auto;
+    width: 80%;
+    padding: 15px;
+    border: 10px solid greenyellow;
+    text-align: center;
+}
+p{
+    border: 3px solid green;
+    padding: 15px;
+    width: 60%;
+    margin: 10px auto;
+}
+em, strong{
+    border: 2px solid blue;
+    padding: 5px;
+}
