@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.vert{
+    background-color: green;
+    width: 850px;
+    height: 463px;
+    
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    margin-top: 20px;
+    width: 400px;
+    height: 45px;
+    background-color: rgba(247, 239, 239, 0.4);
+    
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+form{
+    border: solid 2px white;
+    display: flex;
+    width: 619px;
+    height: 150px;
+    margin-left: px;
+    border-radius: 5px;
+}
+.input{
+    border: solid 2px white;
+    width: 619px;
+    height: 159px;
+    margin: 20px;
+    position: relative;
+    border-radius: 5px;
+}
+p{
+
+}
+.image{
+    width: 110px;
+    height: 90x;
+    display: flex;
+    padding: 111px;
+    margin-left: 290px;
+    position: absolute;
+}
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.td{
+    padding: 15px;
+    
+}
+.th{
+    text-align: right;
+}
+
+.abso{
+    position: absolute;
+    display: flex;
+    padding: 3px;
+    top: px;
+    bottom: 150px;
+    left: 6px;
+    background-color: green;
+    font-family: sans-serif;
+    width: 71px;
+    font-size: px;
+    
+}
+
+.absos{
+    position: absolute;
+    display: flex;
+    bottom: 378px;
+    left: 203px;
+    background-color: green;
+    padding: 3px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    height: 13px;
+
+}
+textarea{
+    margin-left: 17px;
+    width: 590px;
+    border: solid 1px black;
+}
+strong{
+    margin-left: 0px;
+    
+    
+}
+.tables{
+    margin-left: 37px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: right;
+    
+}
+input{
+    margin-left: 10px;
+}
+select{
+    width: 164px;
+    margin-right: 6px;
+}
+.strongss{
+    margin-left: 45px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+button{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    margin-left: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 230px;
+}
+
+
+.th{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.td{
+    font-size: 14px;
+}
+body{
+    background-color: green;
+}

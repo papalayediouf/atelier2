@@ -1,0 +1,75 @@
+.section{
+    background-color: ;
+    color: white;
+    width: 450px;
+    height: 49px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+.box{
+    margin-top: 20px;
+    width: 349px;
+    height: 35px;
+    background-color: rgba(247, 239, 239, 0.4);
+    border: solid 1px black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Inscription{
+    background-color: green;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+}
+.image{
+    width: 50px;
+    height: 52px;
+    position: absolute;
+    padding: 11px;
+}
+h3{
+    
+}
+table{
+    
+    width: 360px;
+    height: 160px;
+    margin-left: 44px;
+}
+td{
+    text-align: right;
+    font-size: ;
+    font-family: sans-serif;
+
+}
+select{
+    width: 170px;
+    margin-right: 6px;
+}
+
+button{
+    background-color: rgb(61, 58, 58);
+    border-radius: 10px;
+    width: 117px;
+    height: 25px;
+    align-items: center;
+    margin-left: 200px;
+    justify-content: center;
+    
+  
+    display: flex;
+
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+  background-color: green;
+}

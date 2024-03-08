@@ -1,0 +1,102 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.formulaire{
+    /* background: linear-gradient (blue , pink); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 20px;
+    background-image: linear-gradient(90deg, rgba(58,9,121,0.7847617066424826) 35%, rgba(255,0,243,0.9891095327294391) 100%);
+    width: 650px;
+    height: 450px;
+}
+
+input , textarea{
+     border:none ;
+    border-bottom: 1px solid white; 
+    background-color: rgb(26, 26, 106);
+    margin-left: 10PX;
+
+}
+input{
+    border-bottom: 1px solid white;
+    width: 120px;
+}
+.lesnoms:focus{
+    border: none;
+    background-color: none;
+    background-color: rgb(26, 26, 106);
+    border-bottom: 1px solid white; 
+    outline: none;
+   
+    
+}
+.interieur{
+    background-color: rgb(26, 26, 106);
+    height: 256px;
+    width: 270px;
+  
+}
+.image{
+    width: 210px ;
+    height: 256px;
+    position:relative;
+    margin-top: 3px;
+}
+ .div1{
+    background-color: brown;
+    opacity: 0.5;
+    position:absolute;
+    top: 326PX;
+    width: 210PX;
+    text-align: center;
+    color: white;
+
+    /* position: absolute;
+    bottom:  10px;
+    width: 200px;
+    right: 15px;
+    */
+} 
+.blanc{
+    color: white;
+    margin-right: ;
+    padding-left: 10PX;
+    padding-right: 10PX;
+    margin-right: 25px;
+}
+button{
+    background: linear-gradient(pink, blue);
+    margin-left: 30px;
+}
+h3{
+    color: blueviolet;
+    text-align: center;
+}
+.lesnomss{
+    border: none;
+    color: white;
+}
+select{
+    background-color:  rgb(26, 26, 106);
+    border: none;
+    outline: none;
+    color: white;
+   
+   
+}
+.blancc{
+    color: white;
+    width: 150px;
+    margin-left: 15px;
+}
+textarea{
+    margin-left: 30px;
+}
+.lesnomss:focus{
+    color: aliceblue;
+}
